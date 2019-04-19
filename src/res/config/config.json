@@ -1,0 +1,839 @@
+{
+  "frame": {
+    "title": "勇士与地下城",
+    "width": 1000,
+    "height": 600,
+    "frame_rate": 45,
+    "stage_num": 6
+  },
+  "welcomeplaylist": [
+    "java.png",
+    "jetbrain.png",
+    "dnf.png",
+    "agtao.png"
+  ],
+  "endplaylist": [
+    "end/1.png",
+    "end/2.png",
+    "end/3.png",
+    "end/4.png",
+    "end/5.png",
+    "end/6.png",
+    "end/7.png",
+    "end/8.png",
+    "end/9.png"
+  ],
+  "stage": [
+    {
+      "is_city": false,
+      "background": "bg/1.jpg",
+      "pause_menu": "pause_menu_map.png",
+      "player": 0,
+      "hp": 1000,
+      "mp": 1000,
+      "atk": 10,
+      "cube": 0,
+      "x_player": 50,
+      "y_player": 350,
+      "player_faceto": 0,
+      "v_player": 10,
+      "gap_attack": 50,
+      "steady": 200,
+      "bgm": "goblin.wav",
+      "end": "冒险家，继续前进吧",
+      "monster": [
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 800,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 800,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 600,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 800,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ]
+      ]
+    },
+    {
+      "is_city": false,
+      "background": "bg/3.jpg",
+      "pause_menu": "pause_menu_map.png",
+      "player": 0,
+      "hp": 1000,
+      "mp": 1000,
+      "atk": 10,
+      "cube": 0,
+      "x_player": 50,
+      "y_player": 350,
+      "player_faceto": 0,
+      "v_player": 10,
+      "gap_attack": 50,
+      "steady": 200,
+      "bgm": "luolan.wav",
+      "end": "冒险家，继续前进吧",
+      "monster": [
+        [
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 600,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 700,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 6,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          }
+        ]
+      ]
+    },
+    {
+      "is_city": false,
+      "background": "bg/7.jpg",
+      "pause_menu": "pause_menu_map.png",
+      "player": 0,
+      "hp": 1000,
+      "mp": 1000,
+      "atk": 10,
+      "cube": 3,
+      "x_player": 50,
+      "y_player": 350,
+      "player_faceto": 0,
+      "v_player": 10,
+      "gap_attack": 50,
+      "steady": 200,
+      "bgm": "leimingfeixu.wav",
+      "end": "冒险家，继续前进吧",
+      "monster": [
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 600,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 700,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 6,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 100,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 200,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 500,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 600,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 2,
+            "hp": 1300,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 5,
+            "atk": 150,
+            "level": 2,
+            "money": 80
+          }
+        ]
+      ]
+    },
+    {
+      "is_city": false,
+      "background": "bg/10.jpg",
+      "pause_menu": "pause_menu_map.png",
+      "player": 0,
+      "hp": 1000,
+      "mp": 1000,
+      "atk": 10,
+      "cube": 3,
+      "x_player": 50,
+      "y_player": 350,
+      "player_faceto": 0,
+      "v_player": 10,
+      "gap_attack": 50,
+      "steady": 200,
+      "bgm": "gbl.wav",
+      "end": "冒险家，继续前进吧",
+      "monster": [
+        [
+          {
+            "id": 2,
+            "hp": 1300,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 85,
+            "level": 1,
+            "money": 56
+          }
+        ],
+        [
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 800,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 2,
+            "hp": 1000,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 85,
+            "level": 1,
+            "money": 56
+          }
+        ],
+        [
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 800,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 1,
+            "hp": 1100,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 120,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 600,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 100,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 200,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 600,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          }
+        ]
+      ]
+    },
+    {
+      "is_city": false,
+      "background": "bg/12.jpg",
+      "pause_menu": "pause_menu_map.png",
+      "player": 0,
+      "hp": 2000,
+      "mp": 1500,
+      "atk": 10,
+      "cube": 3,
+      "x_player": 50,
+      "y_player": 350,
+      "player_faceto": 0,
+      "v_player": 10,
+      "gap_attack": 50,
+      "steady": 200,
+      "bgm": "anheixuanlang.wav",
+      "end": "冒险家，继续前进吧",
+      "monster": [
+        [
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 600,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 700,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 6,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          }
+        ],
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 500,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 600,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 4,
+            "hp": 550,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 70,
+            "level": 1,
+            "money": 32
+          },
+          {
+            "id": 2,
+            "hp": 1300,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 5,
+            "atk": 150,
+            "level": 2,
+            "money": 80
+          }
+        ],
+        [
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 600,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 1,
+            "hp": 950,
+            "x_pos": 500,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 85,
+            "level": 1,
+            "money": 100
+          },
+          {
+            "id": 3,
+            "hp": 1650,
+            "x_pos": 700,
+            "y_pos": 200,
+            "facetoright": false,
+            "v": 1,
+            "atk": 160,
+            "level": 2,
+            "money": 250
+          }
+        ]
+      ]
+    },
+    {
+      "is_city": false,
+      "background": "bg/9.jpg",
+      "pause_menu": "pause_menu_map.png",
+      "player": 0,
+      "hp": 3500,
+      "mp": 1500,
+      "atk": 10,
+      "cube": 3,
+      "x_player": 50,
+      "y_player": 350,
+      "player_faceto": 0,
+      "v_player": 10,
+      "gap_attack": 50,
+      "steady": 200,
+      "bgm": "miwangzhita.wav",
+      "end": "冒险家，继续前进吧",
+      "monster": [
+        [
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 800,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 0,
+            "hp": 300,
+            "x_pos": 600,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 2,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 4,
+            "hp": 600,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 3,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 4,
+            "hp": 600,
+            "x_pos": 800,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 5,
+            "atk": 80,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 4,
+            "hp": 800,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 4,
+            "hp": 800,
+            "x_pos": 450,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 4,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 2,
+            "hp": 1000,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 90,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 2,
+            "hp": 1000,
+            "x_pos": 100,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 70,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 2,
+            "hp": 1000,
+            "x_pos": 200,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 60,
+            "level": 1,
+            "money": 16
+          },
+          {
+            "id": 2,
+            "hp": 1000,
+            "x_pos": 300,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 3,
+            "hp": 1500,
+            "x_pos": 700,
+            "y_pos": 200,
+            "facetoright": false,
+            "v": 1,
+            "atk": 130,
+            "level": 2,
+            "money": 16
+          },
+          {
+            "id": 3,
+            "hp": 1500,
+            "x_pos": 0,
+            "y_pos": 200,
+            "facetoright": false,
+            "v": 1,
+            "atk": 80,
+            "level": 2,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 1,
+            "hp": 2000,
+            "x_pos": 700,
+            "y_pos": 380,
+            "facetoright": false,
+            "v": 5,
+            "atk": 50,
+            "level": 1,
+            "money": 16
+          }
+        ],
+        [
+          {
+            "id": 5,
+            "hp": 1000,
+            "x_pos": 700,
+            "y_pos": 400,
+            "facetoright": false,
+            "v": 3,
+            "atk": 100,
+            "level": 3,
+            "money": 16
+          }
+        ]
+      ]
+    }
+  ]
+}
