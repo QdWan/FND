@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ArtifactsWorkspaceSettings">
+    <artifacts-to-build>
+      <artifact name="DNF:jar" />
+    </artifacts-to-build>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="33efe691-ceda-4d12-a67c-12780f95f674" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/out/artifacts/DNF_jar/DNF.jar" beforeDir="false" afterPath="$PROJECT_DIR$/out/artifacts/DNF_jar/DNF.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Anim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Anim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Collision.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Collision.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Global.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Global.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Monster$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Monster$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Monster.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Monster.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterAI$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterAI$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterAI.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterAI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterAnim.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/MonsterState.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/MonsterState.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/Player.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/Player.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/info/StageInfo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/info/StageInfo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/manager/SceneManager$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/manager/SceneManager$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/manager/SceneManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/manager/SceneManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/GamePanel$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/GamePanel$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/GamePanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/GamePanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/GamePanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/GamePanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel$4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/MenuPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/panel/SmallMenuPanel.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/panel/SmallMenuPanel.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/res/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/res/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/DNF/res/splash/agtao.png" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/DNF/res/splash/agtao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/Anim.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/Anim.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/Collision.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/Collision.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/Global.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/Global.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/Monster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/Monster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/Player.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/Player.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/info/StageInfo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/info/StageInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/manager/SceneManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/manager/SceneManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panel/GamePanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/panel/GamePanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panel/MenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/panel/MenuPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/panel/SmallMenuPanel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/panel/SmallMenuPanel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/config/config.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/config/config.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/res/splash/agtao.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/res/splash/agtao.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/游戏架构设计.md" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/out/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="DNF" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/panel/EndPanel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="326">
+              <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/manager/SceneManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/res/config/config.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="162">
+              <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+              <folding>
+                <element signature="e#2431#4378#0" />
+                <element signature="e#4384#6577#0" />
+                <element signature="e#6583#10014#0" />
+                <element signature="e#10020#12714#0" />
+                <element signature="e#12720#15666#0" />
+                <element signature="e#15672#19906#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>is_a</find>
+      <find>goblin</find>
+      <find>go</find>
+      <find>LOAD</find>
+      <find>MUs</find>
+      <find>【待完成】</find>
+      <find>Chan</find>
+      <find>待</find>
+      <find>待完成</find>
+      <find>【</find>
+      <find>action_sk</find>
+      <find>badaozhan</find>
+      <find>LIEBO</find>
+      <find>【待完成】游戏结束画面</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/manager/Res.java" />
+        <option value="$PROJECT_DIR$/src/manager/ConfigManager.java" />
+        <option value="$PROJECT_DIR$/src/panel/BasePanel.java" />
+        <option value="$PROJECT_DIR$/src/util/Util.java" />
+        <option value="$PROJECT_DIR$/src/info/Player_BladeMaster.java" />
+        <option value="$PROJECT_DIR$/src/manager/SoundManager.java" />
+        <option value="$PROJECT_DIR$/src/manager/MusicManager.java" />
+        <option value="$PROJECT_DIR$/src/res/Res.java" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
+        <option value="$PROJECT_DIR$/src/panel/WelcomePanel.java" />
+        <option value="$PROJECT_DIR$/src/manager/VoiceManager.java" />
+        <option value="$PROJECT_DIR$/src/info/Global.java" />
+        <option value="$PROJECT_DIR$/src/info/StageInfo.java" />
+        <option value="$PROJECT_DIR$/src/panel/SmallMenuPanel.java" />
+        <option value="$PROJECT_DIR$/src/panel/SmallRebornPanel.java" />
+        <option value="$PROJECT_DIR$/src/panel/MenuPanel.java" />
+        <option value="$PROJECT_DIR$/src/info/Collision.java" />
+        <option value="$PROJECT_DIR$/src/info/Player.java" />
+        <option value="$PROJECT_DIR$/src/panel/GamePanel.java" />
+        <option value="$PROJECT_DIR$/src/info/Anim.java" />
+        <option value="$PROJECT_DIR$/src/info/Monster.java" />
+        <option value="$PROJECT_DIR$/src/panel/EndPanel.java" />
+        <option value="$PROJECT_DIR$/src/res/config/config.json" />
+        <option value="$PROJECT_DIR$/src/manager/SceneManager.java" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectConfigurationFiles">
+    <option name="files">
+      <list>
+        <option value="$PROJECT_DIR$/.idea/vcs.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="85" />
+    <option name="y" value="25" />
+    <option name="width" value="1750" />
+    <option name="height" value="980" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="PackagesPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DNF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DNF" type="616d4139:PackageViewModuleNode" />
+            </path>
+            <path>
+              <item name="DNF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DNF" type="616d4139:PackageViewModuleNode" />
+              <item name="manager" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DNF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DNF" type="616d4139:PackageViewModuleNode" />
+              <item name="panel" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DNF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DNF" type="616d4139:PackageViewModuleNode" />
+              <item name="res" type="1f31426a:PackageElementNode" />
+            </path>
+            <path>
+              <item name="DNF" type="58d84e3e:PackageViewProjectNode" />
+              <item name="DNF" type="616d4139:PackageViewModuleNode" />
+              <item name="res" type="1f31426a:PackageElementNode" />
+              <item name="config" type="1f31426a:PackageElementNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope">
+        <subPane subId="Scope 'Production'; set:Production; class com.intellij.psi.search.scope.ProjectProductionScope">
+          <expand>
+            <path>
+              <item name="DNF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DNF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="DNF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DNF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <subPane subId="Scope 'Project Files'; set:Project Files; class com.intellij.psi.search.scope.ProjectFilesScope">
+          <expand>
+            <path>
+              <item name="DNF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DNF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+            </path>
+            <path>
+              <item name="DNF" type="3d21c010:ScopeViewTreeModel$ProjectNode" />
+              <item name="DNF" type="2674bda8:ScopeViewTreeModel$GroupNode" />
+              <item name="src" type="9f88c78c:ScopeViewTreeModel$FileNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="DNF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DNF" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DNF" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="DNF" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="33efe691-ceda-4d12-a67c-12780f95f674" name="Default Changelist" comment="" />
+      <created>1554603620712</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554603620712</updated>
+      <workItem from="1554603623305" duration="17183000" />
+      <workItem from="1554626349336" duration="21919000" />
+      <workItem from="1554683295740" duration="8695000" />
+      <workItem from="1554696794256" duration="3248000" />
+      <workItem from="1554703250635" duration="10012000" />
+      <workItem from="1554716189253" duration="10225000" />
+      <workItem from="1554734528142" duration="233000" />
+      <workItem from="1554771152923" duration="9398000" />
+      <workItem from="1554783250946" duration="2375000" />
+      <workItem from="1554789789465" duration="6272000" />
+      <workItem from="1554856683803" duration="7624000" />
+      <workItem from="1554864375254" duration="40000" />
+      <workItem from="1555323430481" duration="838000" />
+      <workItem from="1555331720138" duration="7697000" />
+      <workItem from="1555461660652" duration="31000" />
+      <workItem from="1555467607461" duration="5383000" />
+      <workItem from="1555493474965" duration="27079000" />
+      <workItem from="1555549418281" duration="3324000" />
+      <workItem from="1555561363360" duration="7135000" />
+      <workItem from="1555581883701" duration="18216000" />
+      <workItem from="1555635088261" duration="5845000" />
+      <workItem from="1555643751977" duration="1420000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="174192000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.48300284" visible="true" weight="0.24128686" />
+      <window_info id="Structure" order="1" sideWeight="0.51699716" side_tool="true" visible="true" weight="0.24128686" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Favorites" order="4" sideWeight="0.5021097" side_tool="true" weight="0.2533512" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49865952" weight="0.3286119" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Database Changes" order="8" />
+      <window_info anchor="bottom" id="Terminal" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.5013405" side_tool="true" weight="0.3286119" />
+      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.3286119" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="1" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="2" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Palette&#9;" order="5" />
+      <window_info anchor="right" id="Database" order="6" weight="0.3297587" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/manager/Res.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.desktop/javax/sound/sampled/AudioSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="1013" column="14" selection-start-line="1013" selection-start-column="14" selection-end-line="1013" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.base/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="493" column="11" selection-start-line="493" selection-start-column="11" selection-end-line="493" selection-end-column="11" />
+          <folding>
+            <element signature="e#17077#17078#0" expanded="true" />
+            <element signature="e#17143#17144#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/scene/forest/1.jpg" />
+    <entry file="file://$PROJECT_DIR$/src/info/Player_BladeMaster.java" />
+    <entry file="file://$PROJECT_DIR$/src/res/charactor/player/blademaster/normal_3.png" />
+    <entry file="file://$PROJECT_DIR$/src/res/charactor/player/blademaster/normal_2.png" />
+    <entry file="file://$PROJECT_DIR$/src/res/charactor/player/blademaster/normal_1.png" />
+    <entry file="file://$PROJECT_DIR$/src/res/charactor/monster/goblin/normal_left_2.png">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.desktop/java/awt/Toolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="688" column="26" selection-start-line="688" selection-start-column="26" selection-end-line="688" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/GameTest/src/ttt/READ.java" />
+    <entry file="jar://C:/Program Files/Java/jdk-12/lib/src.zip!/java.desktop/sun/awt/SunToolkit.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="652" selection-start-line="652" selection-end-line="652" />
+          <folding>
+            <element signature="e#24461#24462#0" expanded="true" />
+            <element signature="e#24511#24512#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manager/SoundManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../resources/GameTest/src/ttt/READ.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-241">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/SmallRebornPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="124">
+          <caret line="60" column="43" selection-start-line="60" selection-start-column="43" selection-end-line="60" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1457#1458#0" expanded="true" />
+            <element signature="e#1542#1543#0" expanded="true" />
+            <element signature="e#2293#2294#0" expanded="true" />
+            <element signature="e#2378#2379#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/SmallMenuPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="164">
+          <caret line="32" column="59" selection-start-line="32" selection-start-column="56" selection-end-line="32" selection-end-column="59" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1819#1820#0" expanded="true" />
+            <element signature="e#1892#1893#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/Res.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="57" column="55" lean-forward="true" selection-start-line="57" selection-start-column="55" selection-end-line="57" selection-end-column="55" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#readFile#0;class#Res#0" />
+            <element signature="method#getBGM#0;class#Res#0" />
+            <element signature="method#getSound#0;class#Res#0" />
+            <element signature="method#getVoice#0;class#Res#0" />
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1481#1482#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/Util.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-162">
+          <caret line="3" column="25" selection-start-line="3" selection-start-column="25" selection-end-line="3" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/BasePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="229">
+          <caret line="10" column="5" lean-forward="true" selection-start-line="10" selection-start-column="5" selection-end-line="10" selection-end-column="5" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#125#126#0" expanded="true" />
+            <element signature="e#167#168#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manager/ConfigManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="5" column="1" lean-forward="true" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding>
+            <element signature="e#174#175#0" expanded="true" />
+            <element signature="e#203#204#0" expanded="true" />
+            <element signature="e#262#263#0" expanded="true" />
+            <element signature="e#307#308#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/WelcomePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="38" column="31" selection-start-line="38" selection-start-column="31" selection-end-line="38" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/MenuPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="79" column="17" selection-start-line="79" selection-start-column="13" selection-end-line="79" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/StageInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
+          <folding>
+            <element signature="e#4454#4455#0" expanded="true" />
+            <element signature="e#4482#4483#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="14" column="28" selection-start-line="14" selection-start-column="16" selection-end-line="14" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/Collision.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="23" column="36" selection-start-line="23" selection-start-column="36" selection-end-line="23" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/Global.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/Player.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="209" column="31" lean-forward="true" selection-start-line="209" selection-start-column="31" selection-end-line="209" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#15118#15119#0" expanded="true" />
+            <element signature="e#15140#15141#0" expanded="true" />
+            <element signature="e#17715#17716#0" expanded="true" />
+            <element signature="e#17752#17753#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/GamePanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="357" column="45" selection-start-line="357" selection-start-column="45" selection-end-line="357" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/Anim.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="275">
+          <caret line="257" column="45" selection-start-line="257" selection-start-column="45" selection-end-line="257" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manager/VoiceManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1741">
+          <caret line="70" column="15" selection-start-line="70" selection-start-column="15" selection-end-line="70" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manager/MusicManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="148">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/info/Monster.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="221">
+          <caret line="227" column="30" selection-start-line="227" selection-start-column="30" selection-end-line="227" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/res/config/config.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="18" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
+          <folding>
+            <element signature="e#2431#4378#0" />
+            <element signature="e#4384#6577#0" />
+            <element signature="e#6583#10014#0" />
+            <element signature="e#10020#12714#0" />
+            <element signature="e#12720#15666#0" />
+            <element signature="e#15672#19906#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/panel/EndPanel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="326">
+          <caret line="90" column="36" selection-start-line="90" selection-start-column="36" selection-end-line="90" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/manager/SceneManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="23" column="15" lean-forward="true" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="15" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor>
+            <show-content>
+              <type id="javaee-facet-resources" />
+              <type id="artifact" />
+              <type id="library" />
+              <type id="jpa-descriptors" />
+            </show-content>
+          </artifact-editor>
+          <last-edited>DNF:jar</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>12</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DNF</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>gson-2.8.5</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
